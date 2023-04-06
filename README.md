@@ -27,7 +27,7 @@ Please note: Run all the scripts below from the directory `OGRIT/`.
 
 5) Preprocess the data and Extract the base and indicator features:
    ```
-   python scripts/preprocess_data.py --extract_indicator_features
+   python scripts/preprocess_data.py
    ```
    
    The task above may take hours to complete. If you have access to a SLURM sever, you could use the `SLURM_extract_occlusions_example.sh` SBATCH script
